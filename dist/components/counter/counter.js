@@ -76,7 +76,7 @@ var Counter = function (_wx$Component) {
     value: function onUpdate(props) {
       if (props.count !== this.props.count) {
         //props.count 值发生了变化，更新data
-        this.setData({ num: props.count * 2 });
+        this.setData({ num: props.count });
       }
     }
   }, {

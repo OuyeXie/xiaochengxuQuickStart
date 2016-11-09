@@ -1270,7 +1270,7 @@
     "v": "0.5.12"
   },
   "/Users/ouyexie/Workspace/xiaochengxuQuickStart/src/components/counter/counter.js": {
-    "mtime": "Wed Nov 09 2016 17:45:20 GMT+0800 (CST)",
+    "mtime": "Wed Nov 09 2016 18:15:42 GMT+0800 (CST)",
     "depends": {
       "/Users/ouyexie/Workspace/xiaochengxuQuickStart/node_modules/babel-runtime/core-js/object/get-prototype-of.js": "/Users/ouyexie/Workspace/xiaochengxuQuickStart/dist/npm/babel-runtime/core-js/object/get-prototype-of.js",
       "/Users/ouyexie/Workspace/xiaochengxuQuickStart/node_modules/babel-runtime/helpers/possibleConstructorReturn.js": "/Users/ouyexie/Workspace/xiaochengxuQuickStart/dist/npm/babel-runtime/helpers/possibleConstructorReturn.js",
@@ -1279,7 +1279,7 @@
     "v": "0.5.12"
   },
   "/Users/ouyexie/Workspace/xiaochengxuQuickStart/dist/components/counter/counter.js": {
-    "mtime": "Wed Nov 09 2016 17:52:43 GMT+0800 (CST)",
+    "mtime": "Wed Nov 09 2016 18:15:50 GMT+0800 (CST)",
     "v": "0.5.12"
   },
   "/Users/ouyexie/Workspace/xiaochengxuQuickStart/node_modules/babel-runtime/core-js/object/get-prototype-of.js": {
