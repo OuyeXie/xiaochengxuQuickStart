@@ -7,6 +7,7 @@
  - [由于框架并非运行在浏览器中，所以 JavaScript 在 web 中一些能力都无法使用，如 document，window 等。](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/?t=20161107)
  - [新的 ES6 的 API 例如 Promise 等需要开发者自行引入 Polyfill 或者别的类库。](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/module.html?t=20161107)
  - [小程序目前不支持直接引入 node_modules , 开发者需要使用到 node_modules 时候建议拷贝出相关的代码到小程序的目录中。](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/module.html?t=20161107)
+ - [wx.request发起的是https请求。一个微信小程序，同时只能有5个网络请求连接。](https://mp.weixin.qq.com/debug/wxadoc/dev/api/network-request.html?t=20161107)
 
 ## solutions
 

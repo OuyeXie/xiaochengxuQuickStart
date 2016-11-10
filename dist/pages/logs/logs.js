@@ -41,6 +41,9 @@ var _util = require('../../utils/util.js');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//import loadViewer from '../../actions/viewer'
+//import 'whatwg-fetch'
+
 var Logs = function (_wx$Component) {
   (0, _inherits3.default)(Logs, _wx$Component);
 
@@ -69,10 +72,45 @@ var Logs = function (_wx$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                _context.next = 2;
+                //    console.log('+++++++++++++')
+                //    await new Promise(fetch('127.0.0.1:3012/ping')
+                //      .then(function(response) {
+                //        console.log('++++++', response)
+                //        return response.text()
+                //      }).then(function(body) {
+                //        console.log('++++++', body)
+                //      }))
+                //    console.log('+++++++++++++')
+                console.log('+++++++++++++');
+                _context.next = 3;
+                return _labrador2.default.request({
+                  url: 'http://127.0.0.1:3012/ping', //仅为示例，并非真实的接口地址
+                  //      data: {
+                  //        x: '' ,
+                  //        y: ''
+                  //      },
+                  //      header: {
+                  //        'Content-Type': 'application/json'
+                  //      },
+                  success: function success(res) {
+                    console.log('s+', res.data);
+                  },
+                  fail: function fail(res) {
+                    console.log('f+', res.data);
+                  },
+                  complete: function complete(res) {
+                    console.log('c+', res);
+                  }
+                });
+
+              case 3:
+                console.log('+++++++++++++');
+                //    const viewer = await loadViewer();
+                //    console.log('++++++++++++', viewer)
+                _context.next = 6;
                 return _labrador2.default.getStorage({ key: 'logs' });
 
-              case 2:
+              case 6:
                 res = _context.sent;
                 logs = res.data || [];
 
@@ -82,7 +120,7 @@ var Logs = function (_wx$Component) {
                   })
                 });
 
-              case 5:
+              case 9:
               case 'end':
                 return _context.stop();
             }
