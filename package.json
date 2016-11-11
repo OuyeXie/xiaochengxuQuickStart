@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/OuyeXie/xiaochengxuQuickStart#readme",
   "dependencies": {
-    "apollo-client": "^0.5.1",
+    "apollo-client": "shengupiao/apollo-client",
     "assert": "^1.4.1",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.0",
